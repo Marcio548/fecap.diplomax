@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/CodigoValidacao=(.*)", "destination": "/CodigoValidacao/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
